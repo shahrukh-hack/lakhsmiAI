@@ -1,0 +1,114 @@
+/* =========================================================================
+   LAKSHMI AI DESIGN TOKENS — THE VIBE CODER'S POWER SUITE THEMES
+   ========================================================================= */
+
+/* Default Dark Theme: Tactile FinTech Obsidian (Default) */
+:root,
+.theme-luxe {
+  --background: 224 25% 6%;         /* Deep Charcoal Obsidian #0B0E14 */
+  --foreground: 220 15% 94%;        /* Soft Platinum #EEF1F6 */
+  --card: 224 20% 9%;              /* #121721 */
+  --card-foreground: 220 15% 94%;
+  --primary: 152 76% 50%;           /* Emerald Alpha #10B981 */
+  --primary-foreground: 224 25% 6%;
+  --secondary: 224 16% 14%;
+  --secondary-foreground: 220 15% 90%;
+  --muted: 224 16% 12%;
+  --muted-foreground: 220 10% 60%;
+  --accent: 43 96% 56%;             /* Warm Champagne Gold */
+  --accent-foreground: 224 25% 6%;
+  --border: 224 16% 16%;            /* Muted slate stroke */
+  --input: 224 16% 16%;
+  --ring: 152 76% 50%;
+  --surface-subtle: 224 20% 7%;
+  --surface-elevated: 224 20% 12%;
+  --radius: 0.875rem;
+}
+
+/* Theme 2: Neo-Brutalist Kinetic Cyber */
+.theme-cyber {
+  --background: 150 10% 6%;         /* #0E1210 */
+  --foreground: 140 20% 95%;
+  --card: 150 12% 9%;
+  --card-foreground: 140 20% 95%;
+  --primary: 142 76% 52%;           /* #22C55E */
+  --primary-foreground: 150 10% 6%;
+  --secondary: 150 12% 15%;
+  --secondary-foreground: 140 20% 90%;
+  --muted: 150 12% 13%;
+  --muted-foreground: 150 10% 58%;
+  --accent: 142 76% 52%;
+  --accent-foreground: 150 10% 6%;
+  --border: 150 12% 18%;
+  --input: 150 12% 18%;
+  --ring: 142 76% 52%;
+  --surface-subtle: 150 12% 7%;
+  --surface-elevated: 150 12% 13%;
+  --radius: 0.5rem;
+}
+
+/* Theme 3: True OLED Black */
+.theme-oled {
+  --background: 0 0% 0%;            /* #000000 True OLED */
+  --foreground: 0 0% 100%;
+  --card: 0 0% 5%;                  /* #0D0D0D */
+  --card-foreground: 0 0% 100%;
+  --primary: 152 80% 52%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 10%;
+  --secondary-foreground: 0 0% 90%;
+  --muted: 0 0% 8%;
+  --muted-foreground: 0 0% 60%;
+  --accent: 43 96% 56%;
+  --accent-foreground: 0 0% 0%;
+  --border: 0 0% 14%;
+  --input: 0 0% 14%;
+  --ring: 152 80% 52%;
+  --surface-subtle: 0 0% 3%;
+  --surface-elevated: 0 0% 8%;
+  --radius: 1rem;
+}
+
+/* Theme 4: Swiss Precision Light */
+.theme-swiss {
+  --background: 0 0% 99%;           /* #FCFCFC Pure Off-white */
+  --foreground: 0 0% 7%;            /* #121212 Obsidian */
+  --card: 0 0% 96%;                 /* #F5F5F5 */
+  --card-foreground: 0 0% 7%;
+  --primary: 215 100% 50%;          /* Precision Cobalt Blue */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 92%;
+  --secondary-foreground: 0 0% 12%;
+  --muted: 0 0% 90%;
+  --muted-foreground: 0 0% 42%;
+  --accent: 142 76% 40%;
+  --accent-foreground: 0 0% 100%;
+  --border: 0 0% 86%;
+  --input: 0 0% 86%;
+  --ring: 215 100% 50%;
+  --surface-subtle: 0 0% 97%;
+  --surface-elevated: 0 0% 100%;
+  --radius: 0.375rem;
+}
+
+/* Theme 5: Editorial Warm Light */
+.theme-editorial {
+  --background: 40 33% 98%;         /* #FAF7F2 Warm Cream */
+  --foreground: 30 15% 12%;         /* #231F1D Deep Espresso */
+  --card: 40 25% 95%;               /* #F5F0E8 */
+  --card-foreground: 30 15% 12%;
+  --primary: 24 80% 46%;            /* #CE5A1B Terracotta */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 40 18% 90%;
+  --secondary-foreground: 30 15% 18%;
+  --muted: 40 15% 88%;
+  --muted-foreground: 30 8% 45%;
+  --accent: 38 92% 50%;
+  --accent-foreground: 30 15% 12%;
+  --border: 35 15% 84%;
+  --input: 35 15% 84%;
+  --ring: 24 80% 46%;
+  --surface-subtle: 40 30% 96%;
+  --surface-elevated: 0 0% 100%;
+  --radius: 0.75rem;
+}

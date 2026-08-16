@@ -1,0 +1,63 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Glassmorphism & High Taste Utilities */
+.glass-panel {
+  background: hsl(var(--card) / 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid hsl(var(--border) / 0.7);
+}
+
+.glass-panel-elevated {
+  background: hsl(var(--surface-elevated) / 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid hsl(var(--border));
+}
+
+.glow-bull-border {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.25);
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+.glow-bear-border {
+  box-shadow: 0 0 15px -3px rgba(239, 68, 68, 0.25);
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted));
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+/* Numeric Mono styling for financial prices */
+.font-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
