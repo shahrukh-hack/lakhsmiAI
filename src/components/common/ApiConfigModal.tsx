@@ -16,9 +16,9 @@ export const ApiConfigModal: React.FC<{ isOpen: boolean; onClose: () => void }> 
   const [settings, setSettings] = useState<ApiSettings>({
     useLiveCrypto: true,
     useLiveForex: true,
-    finnhubKey: '6d16c64184c847ff9bad5d4d5b0eaa15',
-    alphaVantageKey: '6d16c64184c847ff9bad5d4d5b0eaa15',
-    twelveDataKey: '6d16c64184c847ff9bad5d4d5b0eaa15',
+    finnhubKey: import.meta.env.VITE_FINNHUB_KEY || '',
+    alphaVantageKey: import.meta.env.VITE_ALPHA_VANTAGE_KEY || '',
+    twelveDataKey: import.meta.env.VITE_TWELVE_DATA_KEY || '',
     refreshIntervalSec: 15,
   });
   const [testingKey, setTestingKey] = useState<string | null>(null);

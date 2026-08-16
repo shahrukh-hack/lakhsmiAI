@@ -30,7 +30,7 @@ export interface MarketNewsItem {
   url?: string;
 }
 
-const DEFAULT_API_KEY = import.meta.env.VITE_PUBLIC_API_KEY || '6d16c64184c847ff9bad5d4d5b0eaa15';
+const DEFAULT_API_KEY = import.meta.env.VITE_PUBLIC_API_KEY || '';
 
 // Real-time Top Indian Indices (NIFTY 50, BANK NIFTY, SENSEX, NIFTY IT, NIFTY AUTO)
 export const indianIndices: IndianMarketIndex[] = [
